@@ -9,14 +9,14 @@ a HIGH signal is sent to the connected Arduino board which will then activate th
 to the relay pin on the board.
 
 # Requirements
-*Libraries*: OpenCV and PySerial, which can be installed using pip.
-*Software*: VSCode or any code writer or IDE, Arduino IDE.
-*Hardware*: Arduino Uno R3 or similar microcontroller.
+*Libraries*: OpenCV and PySerial, which can be installed using pip.\n
+*Software*: VSCode or any code writer or IDE, Arduino IDE.\n
+*Hardware*: Arduino Uno R3 or similar microcontroller.\n
 
 # Setup
 *Uploading the Arduino Code*: Connect the Arduino Uno R3 microcontroller to your laptop/PC with a 
-USB cable. Then, using the Arduino IDE, write and upload the Arduino code to the Arduino board.
-*Hardware Configuration*: Connect an LED to the Arduino board through relay pin 7.
+USB cable. Then, using the Arduino IDE, write and upload the Arduino code to the Arduino board.\n
+*Hardware Configuration*: Connect an LED to the Arduino board through relay pin 7.\n
 *Running the Python Program*: With the Arduino board connected to your computer, run the Python
 program. In line 6 of the program, change the port name from 'COM5' to the appropriate port, 
 if necessary.
